@@ -1,1 +1,3 @@
-vault_certificate = aws_acm_certificate.vault.arn
+output "vault_certificate" {
+  value = aws_acm_certificate.vault.arn
+  }
